@@ -89,7 +89,7 @@ class Crypto {
     public static function create_keys() {
         $config = array(
             "digest_alg" => "sha256",
-            "private_key_bits" => 2048,
+            "private_key_bits" => 1024,
             "private_key_type" => OPENSSL_KEYTYPE_RSA,
         );
 
